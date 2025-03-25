@@ -44,10 +44,12 @@ img {
   padding-bottom: 120px;
 }
 
-header div {
+header .container {
   display: flex;
   padding: 24px;
-  justify-content: center;
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .logo {
@@ -59,18 +61,21 @@ header div {
   text-transform: uppercase;
   color: #4d5ae5;
   display: block;
+  margin-right: 76px;
 }
 
 .logo-studio {
   color: #2e2f42;
 }
 
-nav {
+.logo-navigation-address {
   display: flex;
+  align-items: center;
 }
 
 .navigation {
   display: flex;
+  gap: 40px;
 }
 
 .navigation-link {
@@ -96,6 +101,7 @@ nav {
 
 address ul {
   display: flex;
+  gap: 40px;
 }
 
 .navigation-address-link {
