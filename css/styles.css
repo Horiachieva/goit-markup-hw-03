@@ -35,8 +35,6 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 141px;
-  margin-right: 141px;
   display: block;
   margin: 0 auto;
 }
@@ -141,13 +139,6 @@ header .container {
   padding-bottom: 188px;
 }
 
-/*.section-main-headline .container {
-  display: flex;
-  margin: 0 auto;
-  text-align: center;
-  justify-content: space-between;
-}
-*/
 .main-headline {
   font-size: 56px;
   line-height: 1.07;
